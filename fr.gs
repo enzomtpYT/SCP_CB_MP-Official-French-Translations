@@ -698,6 +698,7 @@ def lang(FromPublic)
 	RedirectText("Requires", "Necessite")
 	RedirectText("more players to start the game", "joueurs de plus pour commencer le jeu")
 	RedirectText("Memory Access Violation", "Violation d'Acces a la Memoire")
+	RedirecText("You are uncuffed", "Vous n'etes plus menotte")
 
 	RedirectText("A keycard with security clearance 1 or higher is required to operate this door.", "Une carte avec une habilitation de securite 1 ou plus est requise pour faire fonctionner cette porte.")
 	RedirectText("A keycard with security clearance 2 or higher is required to operate this door.", "Une carte avec une habilitation de securite 2 ou plus est requise pour faire fonctionner cette porte.")
