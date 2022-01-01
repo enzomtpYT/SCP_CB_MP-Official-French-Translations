@@ -1,5 +1,5 @@
 // French
-// V1.2.2
+// V1.2.3
 
 #define LANGUAGE_NAME "FRENCH"
 #define SAVE_FILE "languages\sources\save.txt"
