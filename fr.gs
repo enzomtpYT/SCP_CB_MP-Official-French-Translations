@@ -88,8 +88,8 @@ def lang(FromPublic)
 	RedirectText("Only smoke emitters will produce particles.", "Seuls les metteurs de fume produiront des particules.")
 
     RedirectText(Chr(34)+"Bump mapping"+Chr(34)+" is used to simulate", Chr(34)+"Le Mappage de relief"+Chr(34)+" est utilise")
-	RedirecText("bumps and dents by distorting the ","pour simuler des bosses et des creux en deformant les")
-	RedirecText("lightmaps.", "textures de lumiere.")
+	RedirectText("bumps and dents by distorting the ","pour simuler des bosses et des creux en deformant les")
+	RedirectText("lightmaps.", "textures de lumiere.")
 
 	RedirectText(Chr(34)+"Invert mouse Y-axis"+Chr(34)+" is", Chr(34)+"Inverser l'axe Y de la souris"+Chr(34)+" est")
 	RedirectText("self-explanatory", "explicite")
