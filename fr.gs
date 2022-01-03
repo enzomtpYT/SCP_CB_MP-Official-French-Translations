@@ -325,7 +325,6 @@ def lang(FromPublic)
 	RedirectText("Freedom", "Liberter")
 	RedirectText("Science!", "La science!")
 	
-	RedirectText("Encountered", "Rencontre")
 	RedirectText("Encountered the Zombie Plague.", "Rencontre la Peste Zombie.")
 	RedirectText("Encountered the Bad Composition.", "Rencontre la Mauvaise Composition.")
 	RedirectText("Encountered the Possessive Mask.", "Rencontre le Masque Possessif.")
