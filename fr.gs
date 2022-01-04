@@ -213,6 +213,7 @@ def lang(FromPublic)
 	RedirectText("ACCESS CODE:", "CODE D'ACCES:")
 	RedirectText("ACCESS DENIED", "ACCES REFUSE")
 	RedirectText("[REDACTED]", "[SUPPRIMER]")
+	RedirectText("OFFLINE", "HORS LIGNE")
 
 	RedirectText("GRAPHICS", "GRAPHIQUE")
 	RedirectText("Enable bump mapping:", "Active le mappage de relief:")
