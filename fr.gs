@@ -187,7 +187,7 @@ def lang(FromPublic)
 	RedirectText("Current value:", "Valeur actuelle:")
 	RedirectText("default is", "Valeur par defaut:")
 	RedirectText("Type message", "Ecrivez un message")
-
+    RedirectText("(left:)", "(reste:)")
 	RedirectText("This option cannot be changed", "Cette option ne peut pas etre modifiee")
 	RedirectText("in-game.","dans le jeu.")
 
@@ -763,7 +763,6 @@ def lang(FromPublic)
 	RedirectText("CLICK TO ENABLE", "CLIQUEZ POUR ACTIVER")
 	RedirectText("YOU CAN SPEAK IN", "VOUS POUVEZ PARLER DANS")
 	RedirectText("YOU CAN SPEAKING", "VOUS POUVEZ PARLER")
-	RedirectText("(left:)", "(reste:)")
 	
 	RedirectText("Display the blinck and stamina meters.", "Affichez les metres de clignotement et d'endurance.")
 	RedirectText("Toggles the use of the developer console.", "Bascule l'utilisation de la console developpeur.")
