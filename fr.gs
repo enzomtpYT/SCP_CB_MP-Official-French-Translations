@@ -479,7 +479,7 @@ def lang(FromPublic)
 	RedirectText("You can't use that item while wearing a gas mask.", "Vous ne pouvez pas utiliser cet article en portant un masque a gaz.")
 	RedirectText("You can't use that item while wearing headgear.", "Vous ne pouvez pas utiliser cet article lorsque vous portez un couvre-chef.")
 	RedirectText("You cannot control it.", "Tu ne peux pas le controler.")
-	RedirectText("Use the numbered keys 1 through 3 to cycle between various channels.", "Utilisez les touches numerotees de 1 a 3 pour passer d'un canal a un autre.")
+	RedirectText("Use the numbered keys 1 through 9 to cycle between various channels.", "Utilisez les touches numerotees de 1 a 3 pour passer d'un canal a un autre.")
 
 	RedirectText("There is nothing to drink in the cup.", "Il n'y a rien a boire dans la tasse.")
 	RedirectText("Damn, that's strong.", "Putain, c'est fort.")
