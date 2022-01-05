@@ -309,7 +309,7 @@ def lang(FromPublic)
 	RedirectText("You uncuffed the player.", "Vous avez debloque le joueur.")
 	RedirectText("You are handcuffed.", "Vous etes menotte.")
 	RedirectText("You are uncuffed", "Vous n'etes plus menotte")
-	RedirectText("Ammo reserve fully replenished.", "Reserve de munitions entierement reconstituee."
+	RedirectText("Ammo reserve fully replenished.", "Reserve de munitions entierement reconstituee.")
 	RedirectText("REFRESHING DATA IN", "RAFRAICHISSEMENT DES DONNEES DANS")
 	RedirectText("SECONDS", "SECONDES")
 	RedirectText("CLICK TO ENABLE", "CLIQUEZ POUR ACTIVER")
