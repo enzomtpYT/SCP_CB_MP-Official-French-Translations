@@ -60,6 +60,7 @@ def launchlang()
 	RedirectText("OPTIONS", "OPTIONS")
 	RedirectText("QUIT", "QUITTER")
 	RedirectText("Quit", "Quitter")
+	RedirectText("EXIT TO MENU", "SORTIR AU MENU")
 	RedirectText("PRESS ANY KEY TO CONTINUE", "APPUYEZ SUR N'IMPORTE QUELLE TOUCHE POUR CONTINUER")
 end
 def lang(FromPublic)
