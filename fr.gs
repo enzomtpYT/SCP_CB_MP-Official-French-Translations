@@ -340,7 +340,7 @@ def lang(FromPublic)
 	RedirectText("Pressing it harder does not make the elevator come faster.", "Le fait d'appuyer plus fort n'accelere pas l'ascenseur.")
 	RedirectText("Stop spamming the button.", "Arretes de spammer le bouton.")
 	RedirectText("A keycard is required to operate this door.", "Une carte-cle est necessaire pour faire fonctionner cette porte.")
-	RedirectText("The doors appears to be loked.", "Les portes semblent etre fermees."))
+	RedirectText("The doors appears to be loked.", "Les portes semblent etre fermees.")
 
 	RedirectText("Gas Mask", "Masque a Gaz")
 	RedirectText("Super Gas Mask", "Super Masque a Gaz")
