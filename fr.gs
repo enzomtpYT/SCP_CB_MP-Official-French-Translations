@@ -92,6 +92,7 @@ def lang(FromPublic)
 	RedirectText("LOAD GAME", "CHARGER UN JEU")
 	RedirectText("OPTIONS", "OPTIONS")
 	RedirectText("QUIT", "QUITTER")
+	RedirectText("Quit to Menu", "Quitter au Menu")
 	RedirectText("Quit", "Quitter")
 	RedirectText("PRESS ANY KEY TO CONTINUE", "APPUYEZ SUR N'IMPORTE QUELLE TOUCHE POUR CONTINUER")
 	//
