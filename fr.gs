@@ -414,6 +414,7 @@ def lang(FromPublic)
 	RedirectText("Press Space to blink.", "Appuyez sur Espace pour cligner.")
 	RedirectText("Press F5 to save.", "Appuyez sur F5 pour sauvegarder.")
 	RedirectText("Hold Left Shift to run.", "Maintenez la touche Maj gauche enfoncee pour courir.")
+	RedirectText("Saving is only permitted on clickable monitors scattered throughout the facility.", "L'enregistrement n'est autorise que sur les ecrans cliquables dissemines dans l'installation. L'enregistrement n'est autorise que sur les ecrans cliquables dissemines dans l'installation.")
 
 	RedirectText("Biohazard", "Danger biologique")
 	RedirectText("Curtains Down", "Rideaux baisser")
