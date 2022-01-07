@@ -232,7 +232,7 @@ def lang(FromPublic)
 	RedirectText("Manual Blink", "Clignement manuel")
 	RedirectText("Sprint", "Courir")
 	RedirectText("Open/Close Inventory", "Ouvrir/Fermer L'inventaire")
-	RedirectText("Crouch", "Accroupissement")
+	RedirectText("Crouch", "S'accroupit")
 	RedirectText("Open/Close Console", "Ouvrir/Fermer la console")
 	RedirectText("Voice", "Voix")
 	//
