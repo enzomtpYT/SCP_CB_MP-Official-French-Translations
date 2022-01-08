@@ -856,7 +856,6 @@ def lang(FromPublic)
 	RedirectText("Limits the frame rate that the game can run at to a desired value.", "Limite le cadre de l'images a laquelle le jeu peut s'executer a une valeur souhaitee.")
 	RedirectText(Chr(34)+"Antialiased text"+Chr(34)+" smooths out the text before displaying. Makes text easier to read at high resolutions.", Chr(34)+"Texte anticrenele"+Chr(34)+" lisse le texte avant de l'afficher. Facilite la lecture des textes en haute resolution.")
 
-
 	InitLoadingScreens(getscriptpath()+"\sources\frloadingscreens.ini")
 	InitInfoClues(getscriptpath()+"\sources\frclues.ini")
 end
