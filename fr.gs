@@ -616,7 +616,7 @@ def lang(FromPublic)
 	InitLoadingScreens(getscriptpath()+"\sources\frloadingscreens.ini")
 	InitInfoClues(getscriptpath()+"\sources\frclues.ini")
 
-	Sleep(5000);
+	Sleep(5000)
 
 	RedirectText("Media:", "Media:")
 	RedirectText("LAUNCH", "LANCER")
