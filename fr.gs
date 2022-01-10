@@ -109,14 +109,7 @@ def lang(FromPublic)
 	RedirectText("Crouch", "S'accroupir")
 	RedirectText("Open/Close Console", "Ouvrir/Fermer la console")
 	RedirectText("Voice", "Voix")
-
-	RedirectText("Remaining before the start of the game -", "Restant avant le debut du jeu -")
-
-	RedirectText("CONNECTED", "CONNECTES")
-	RedirectText("PLAYERS", "JOUEURS")
-	RedirectText("Requires", "Necessite")
-	RedirectText("more players to start the game", "joueurs de plus pour commencer le jeu")
-
+	//
 	RedirectText("Back", "Retour")
 	RedirectText("Page", "Page")
 	RedirectText("DISCONNECT", "DECONNEXION")
