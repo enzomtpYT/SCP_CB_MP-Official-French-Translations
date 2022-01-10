@@ -1,4 +1,5 @@
 // French
+//1.2.2.2
 
 #define LANGUAGE_NAME "FRENCH"
 #define SAVE_FILE "languages\sources\save.txt"
