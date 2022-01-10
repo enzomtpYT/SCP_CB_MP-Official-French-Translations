@@ -289,6 +289,7 @@ def lang(FromPublic)
 	RedirectText("Sticky Note", "Note collante")
 	RedirectText("The Modular Site Project", "Le projet de site modulaire")
 	RedirectText("Research Sector-02 Scheme", "Schema Secteur de recherche-02")
+	RedirectText("Notification", "Notification")
 
 	RedirectText(Chr(34)+"I don't have anything to light it with. Umm, what about that... Nevermind."+Chr(34), Chr(34)+"Je n'ai rien pour l'allumer. Euh, qu'en est-il de ca... Peu importe."+Chr(34))
 	RedirectText(Chr(34)+"Hey, I remember this movie!"+Chr(34), Chr(34)+"He, je me souviens de ce film !"+Chr(34))
