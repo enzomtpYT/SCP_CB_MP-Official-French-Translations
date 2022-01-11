@@ -953,6 +953,8 @@ def lang(FromPublic)
 	RedirectText("ACCESS CODE:", "CODE D'ACCES:")
 	RedirectText("ACCESS DENIED", "ACCES REFUSE")
 
+	RedirectText("Remaining before the start of the game -", "Restant avant le debut du jeu -")
+
 	RedirectText("THE ROUND HAS FINISHED", "LA PARTIE EST FINIE")
 	RedirectText("SCPs WON", "LES SCP ONT GAGNES")
 	RedirectText("Class D WON", "LES CLASSE-D ONT GAGNES")
