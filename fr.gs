@@ -806,8 +806,6 @@ def lang(FromPublic)
 	RedirectText("READY", "PRET")
 	RedirectText("No saved games.", "Pas de jeux sauvegardes.")
 	RedirectText("Are you sure you want to delete this save?", "Etes-vous sur de vouloir supprimer cette sauvegarde?")
-	RedirectText("Yes", "Oui")
-	RedirectText("No", "Non")
 	//
 	RedirectText("CONTROLS", "CONTROLES")
 	RedirectText("Mouse sensitivity:", "Sensibilite de la souris:")
@@ -846,15 +844,19 @@ def lang(FromPublic)
 	RedirectText("Save anywhere", "Enregistrer n'importe ou")
 	RedirectText("Aggressive NPCs", "NPCs agressifs")
 	RedirectText("START", "COMMENCER")
+	RedirectText("Yes", "Oui")
+	RedirectText("No", "Non")
 
 	RedirectText("OFFICIAL", "OFFICIEL")
 	RedirectText("MODDED", "MODDE")
 	RedirectText("HISTORY", "HISTORIQUE")
 
 	RedirectText("FAVORITES", "FAVORIS")
+	RedirectText("ADD", "AJOUTER")
 	RedirectText("ADD SERVER", "AJOUTER UN SERVEUR")
 
 	RedirectText("LOCAL", "LOCALE")
+	RedirectText("Local servers are searched only on port", "Les serveurs locaux sont recherches uniquement sur le port")
 	RedirectText("DELETE SERVER", "SUPPRIMER LE SERVEUR")
 	RedirectText("Server list is clear.", "La liste des serveurs est vide.")
 
