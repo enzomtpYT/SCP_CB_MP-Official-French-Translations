@@ -535,6 +535,10 @@ def lang(FromPublic)
 	RedirectText("prevent aliasing. Change this option if", "empecher l'anticrenele. Modifiez cette option si")
 	RedirectText("textures flicker or look too blurry.", "les textures scintillent ou semblent trop floues.")
 
+	RedirectText("The time after which the surveillance", "Le temps apres lequel la camera de surveillance")
+	RedirectText("camera will be updated. Increases", "sera mise a jour. Augmente la ")
+	RedirectText("productivity if speed is slow.", "productivite si la vitesse est lente.")
+
 	RedirectText("Affects the quality of the picture in", "Affecte la qualite de l'image dans")
 	RedirectText("surveillance cameras. Strongly affects", "les cameras de surveillance. Affecte fortement")
 	RedirectText("performance. It is recommended to set a", "les performances. Il est recommande de definir")
