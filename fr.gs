@@ -1295,7 +1295,7 @@ def lang(FromPublic)
 	RedirectText("Hold Left Shift to run.", "Maintenez la touche Maj gauche enfoncee pour courir.")
 	RedirectText("Saving is only permitted on clickable monitors scattered throughout the facility.", "L'enregistrement n'est autorise que sur les ecrans cliquables dissemines dans l'installation. L'enregistrement n'est autorise que sur les ecrans cliquables dissemines dans l'installation.")
 	RedirectText("STOP HIDING", "ARRETE DE TE CACHER")
-	RedirectText("Game progress saved.", "Progression du jeu enregistrer.")	
+	RedirectText("Game progress saved.", "Progression du jeu sauvegarder.")	
 	RedirectText("ACCESS CODE:", "CODE D'ACCES:")
 	RedirectText("ACCESS DENIED", "ACCES REFUSE")
 
