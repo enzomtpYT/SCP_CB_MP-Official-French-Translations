@@ -116,6 +116,19 @@ def lang(FromPublic)
 	RedirectText("Quit", "Quitter")
 	RedirectText("to Menu", "au Menu")
 	RedirectText("PRESS ANY KEY TO CONTINUE", "APPUYEZ SUR N'IMPORTE QUELLE TOUCHE POUR CONTINUER")
+
+	for i = 1; i < 65; i++
+	  RedirectText("%w%CONNECTED %g%"+i+" %w%PLAYERS", "%w%CONNECTES: %g%"+i+" %w%JOUEURS")
+	end
+
+	RedirectText("Remaining before the start of the game -", "Restant avant le debut du jeu -")
+
+	for i = 1; i < 3; i++
+	  RedirectText("%w%Requires %g%"+i+" %w%more players to start the game", "%w%Necessite %g%"+i+" %w%joueurs de plus pour commencer la partie")
+	end
+	for i = 1; i < 1; i++
+	  RedirectText("%w%Requires %g%"+i+" %w%more player to start the game", "%w%Necessite %g%"+i+" %w%joueur de plus pour commencer la partie")
+	end
 	
 	RedirectText("THE END", "LA FIN")
 	RedirectText("MAIN MENU", "MENU PRINCIPAL")
@@ -735,6 +748,7 @@ def lang(FromPublic)
 	RedirectText("Electronical components", "Composants electroniques")
 	RedirectText("cup", "Tasse")
 	RedirectText("Cup of Coffee", "Tasse de cafe")
+	RedirectText("Cup of Orange Juice", "Tasse de Jus d'orange")
 	RedirectText("Empty Cup", "Tasse vide")
 	RedirectText("SCP-148 Ingot", "Lingot de SCP-148")
 	RedirectText("Metal Panel", "Panneau en metal")
@@ -1197,13 +1211,6 @@ def lang(FromPublic)
 	RedirectText("DELETE SERVER", "SUPPRIMER LE SERVEUR")
 	RedirectText("Server list is clear.", "La liste des serveurs est vide.")
 
-	RedirectText("CONNECTED", "CONNECTES:")
-	RedirectText("%d PLAYERS", "%d JOUEURS")
-
-	RedirectText("Requires", "Necessite")
-	RedirectText("%d more players to start the game", "%d joueurs de plus pour commencer la partie")
-	RedirectText("1 more player to start the game", "1 joueur de plus pour commencer la partie")
-
 	RedirectText("Servers", "Serveurs")
 	RedirectText("Server:", "Serveur:")
 	RedirectText("Players", "Joueurs")
@@ -1212,6 +1219,7 @@ def lang(FromPublic)
 	RedirectText("Close", "Fermer")
 
 	RedirectText("JOIN SERVER", "REJOINDRE")
+	RedirectText("Password", "Mot de passe")
 	RedirectText("REFRESH SERVER", "ACTUALISER")
 
 	RedirectText("CREATE LOBBY", "CREER UNE SALLE")
@@ -1538,12 +1546,7 @@ def lang(FromPublic)
 
 	RedirectText("Type message", "Ecrivez un message")
 
-	RedirectText("Remaining before the start of the game -", "Restant avant le debut du jeu -")
-
-	RedirectText("Requires", "Necessite")
-	RedirectText("%d more players to start the game", "%d joueurs de plus pour commencer la partie")
-	RedirectText("1 more player to start the game", "1 joueur de plus pour commencer la partie")
-
+	RedirectText("SERVER IS RESTARTING", "LE SERVEUR REDEMARRE")
 	RedirectText("THE ROUND HAS FINISHED", "LA PARTIE EST FINIE")
 	RedirectText("SCPs WON", "LES SCP ONT GAGNES")
 	RedirectText("Class D WON", "LES CLASSE-D ONT GAGNES")
@@ -1610,6 +1613,7 @@ def lang(FromPublic)
 	RedirectText("Your version:", "Votre version:")
 	RedirectText("Remaining before the start -", "Restant avant de commencer -")
 	RedirectText("You are banned", "Tu es banni")
+	RedirectText("Wrong password", "Mauvais mot de passe")
 
 	InitLoadingScreens(getscriptpath()+"\sources\frloadingscreens.ini")
 	InitInfoClues(getscriptpath()+"\sources\frclues.ini")
