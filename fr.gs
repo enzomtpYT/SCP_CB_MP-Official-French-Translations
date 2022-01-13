@@ -122,7 +122,7 @@ def lang(FromPublic)
 	end
 
 	for i = 1; i < 4; i++
-	  RedirectText("%w%Requires %g%"+i+" %w%more players to start the game", "%w%Necessite %g%"+i+" %w%joueurs de plus pour commencer la partie")
+	  RedirectText("%w%Requires %r%"+i+" %w%more players to start the game", "%w%Necessite %r%"+i+" %w%joueurs de plus pour commencer la partie")
 	end
 	
 	RedirectText("THE END", "LA FIN")
