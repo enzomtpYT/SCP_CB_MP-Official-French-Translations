@@ -148,8 +148,8 @@ def lang(FromPublic)
 
 	RedirectText("RECEIVING DATA", "RECEPTION DE DONNEES")
 
-	RedirectText("The game can be saved any time. However,", "Le jeu peut etre sauvegarde a tout moment. Cependant,")
-	RedirectText("as in the case of SCP Objects, a Safe", "comme dans le cas des objets SCP, une")
+	RedirectText("The game can be saved any time. However,", "Le jeu peut etre sauvegarde a tout moment.")
+	RedirectText("as in the case of SCP Objects, a Safe", " Cependant, comme dans le cas des objets SCP, une")
 	RedirectText("classification does not mean that", "classification Sur ne signifie pas que")
 	RedirectText("handling it does not pose a threat.", "sa manipulation ne constitue pas une menace.")
 	RedirectText("In Euclid difficulty, saving is only", "En difficulte Euclide, la sauvegarde n'est autorisee")
