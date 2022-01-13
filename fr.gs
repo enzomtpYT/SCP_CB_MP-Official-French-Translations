@@ -124,10 +124,7 @@ def lang(FromPublic)
 	RedirectText("Remaining before the start of the game -", "Restant avant le debut du jeu -")
 
 	for i = 1; i < 3; i++
-	  RedirectText("%w%Requires %g%"+i+" %w%more players to start the game", "%w%Necessite %g%"+i+" %w%joueurs de plus pour commencer la partie")
-	end
-	for i = 1; i < 1; i++
-	  RedirectText("%w%Requires %g%"+i+" %w%more player to start the game", "%w%Necessite %g%"+i+" %w%joueur de plus pour commencer la partie")
+	  RedirectText("%w%Requires %r%"+i+" %w%more players to start the game", "%w%Necessite %g%"+i+" %w%joueurs de plus pour commencer la partie")
 	end
 	
 	RedirectText("THE END", "LA FIN")
