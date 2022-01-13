@@ -78,7 +78,7 @@ def lang(FromPublic)
 	StopAllRedirectText()
 	if FromPublic == 0 then 
         FreeFonts(True)
-        LoadFonts(True)
+        LoadFonts(False)
 	end
 	
 	RedirectText("Media:", "Media:")
@@ -1197,6 +1197,9 @@ def lang(FromPublic)
 	RedirectText("DELETE SERVER", "SUPPRIMER LE SERVEUR")
 	RedirectText("Server list is clear.", "La liste des serveurs est vide.")
 
+	RedirectText("CONNECTED", "CONNECTES:")
+	RedirectText("PLAYERS", "JOUEURS")
+
 	RedirectText("Servers", "Serveurs")
 	RedirectText("Server:", "Serveur:")
 	RedirectText("Players", "Joueurs")
@@ -1532,6 +1535,10 @@ def lang(FromPublic)
 	RedirectText("Type message", "Ecrivez un message")
 
 	RedirectText("Remaining before the start of the game -", "Restant avant le debut du jeu -")
+
+	RedirectText("Requires", "Necessite")
+	RedirectText("%d more players to start the game", "%d joueurs de plus pour commencer la partie")
+	RedirectText("1 more player to start the game", "1 joueur de plus pour commencer la partie")
 
 	RedirectText("THE ROUND HAS FINISHED", "LA PARTIE EST FINIE")
 	RedirectText("SCPs WON", "LES SCP ONT GAGNES")
