@@ -1029,8 +1029,8 @@ def lang(FromPublic)
 
 	RedirectText("Nine-Tailed Fox discovered the body of", "Nine-Tailed Fox a decouvert le corps de")
 	RedirectText("D-9341 near the cafeteria at Sector", "D-9341 pres de la cafeteria du secteur")
-	RedirectText("[REDACTED] without some pieces of", "[SUPPRIMe] sans quelques morceaux de")
-	RedirectText("[REDACTED]. The subject died of anomalous", "[SUPPRIMe]. Le sujet est mort d'une anomalie de")
+	RedirectText("[REDACTED] without some pieces of", "[SUPPRIME] sans quelques morceaux de")
+	RedirectText("[REDACTED]. The subject died of anomalous", "[SUPPRIME]. Le sujet est mort d'une anomalie de")
 	RedirectText("blood loss.", "perte de sang.")
 
 	RedirectText(Chr(34)+"Requesting support from MTF Nu-7. We", Chr(34)+"Demande d'assistance a MTF Nu-7. Nous")
