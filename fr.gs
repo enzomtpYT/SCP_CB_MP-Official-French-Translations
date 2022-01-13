@@ -78,7 +78,7 @@ def lang(FromPublic)
 	StopAllRedirectText()
 	if FromPublic == 0 then 
         FreeFonts(True)
-        LoadFonts(False)
+        LoadFonts(True)
 	end
 	
 	RedirectText("Media:", "Media:")
