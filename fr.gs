@@ -117,12 +117,11 @@ def lang(FromPublic)
 	RedirectText("to Menu", "au Menu")
 	RedirectText("PRESS ANY KEY TO CONTINUE", "APPUYEZ SUR N'IMPORTE QUELLE TOUCHE POUR CONTINUER")
 
+	for i = 1; i < 4; i++
+	  RedirectText("%w%Requires %r%"+PlayersCount+" %w%more players to start the game", "%w%Necessite %r%"+PlayersCount+" %w%joueurs de plus pour commencer la partie")
+	end
 	for i = 1; i < 65; i++
 	  RedirectText("%w%CONNECTED %g%"+i+" %w%PLAYERS", "%w%CONNECTES: %g%"+i+" %w%JOUEURS")
-	end
-
-	for i = 1; i < 4; i++
-	  RedirectText("%w%Requires %r%"+i+" %w%more players to start the game", "%w%Necessite %r%"+i+" %w%joueurs de plus pour commencer la partie")
 	end
 	
 	RedirectText("THE END", "LA FIN")
