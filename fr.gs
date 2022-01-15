@@ -132,6 +132,8 @@ def lang(FromPublic)
 	RedirectText("Documents discovered", "Documents decouverts")
 	RedirectText("Items refined in SCP-914", "Objets raffines dans SCP-914")
 
+	RedirectText("SERVER IS RESTARTING", "LE SERVEUR REDEMARRE")
+
 	RedirectText("DON'T BLINK", "NE CLIGNE PAS")
 	RedirectText("Secure. Contain. Protect.", "Securise. Contenir. Proteger.")
 	RedirectText("You want happy endings? Fuck you.", "Tu veux des fins heureuses ? Va t'faire foutre.")
@@ -1542,7 +1544,6 @@ def lang(FromPublic)
 	RedirectText("Remaining before the start of the game -", "Restant avant le debut du jeu -")
 	RedirectText("Type message", "Ecrivez un message")
 
-	RedirectText("SERVER IS RESTARTING", "LE SERVEUR REDEMARRE")
 	RedirectText("THE ROUND HAS FINISHED", "LA PARTIE EST FINIE")
 	RedirectText("SCPs WON", "LES SCP ONT GAGNES")
 	RedirectText("Class D WON", "LES CLASSE-D ONT GAGNES")
