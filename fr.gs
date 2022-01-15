@@ -117,11 +117,11 @@ def lang(FromPublic)
 	RedirectText("to Menu", "au Menu")
 	RedirectText("PRESS ANY KEY TO CONTINUE", "APPUYEZ SUR N'IMPORTE QUELLE TOUCHE POUR CONTINUER")
 
-	for i = 1; i < 3; i++
-	  RedirectText("%w%Requires %r%"+i+" %w%more players to start the game", "%w%Necessite %r%"+i+" %w%joueurs de plus pour commencer le jeu")
-	end
-	for i = 1; i < 1; i++
+	for i = 1; i < 9; i++
 	  RedirectText("%w%Requires %r%"+i+" %w%more player to start the game", "%w%Necessite %r%"+i+" %w%joueur de plus pour commencer le jeu")
+	end
+	for i = 1; i < 10; i++
+	  RedirectText("%w%Requires %r%"+i+" %w%more players to start the game", "%w%Necessite %r%"+i+" %w%joueurs de plus pour commencer le jeu")
 	end
 	for i = 1; i < 65; i++
 	  RedirectText("%w%CONNECTED %g%"+i+" %w%PLAYERS", "%g%"+i+" %w%JOUEURS %w%CONNECTES")
@@ -137,9 +137,9 @@ def lang(FromPublic)
 
 	RedirectText("DON'T BLINK", "NE CLIGNE PAS")
 	RedirectText("Secure. Contain. Protect.", "Securise. Contenir. Proteger.")
-	RedirectText("You want happy endings? Fuck you.", "Vous voulez des fins heureuses ? Va t'faire foutre.")
+	RedirectText("You want happy endings? Fuck you.", "Tu veux des fins heureuses ? Va t'faire foutre.")
 	RedirectText("Sometimes we would have had time to scream.", "Parfois, nous aurions eu le temps de crier.")
-	RedirectText("NIL", "KAWAII")
+	RedirectText("NIL", "NÉANT")
 	RedirectText("black white black white black white gray", "noir blanc noir blanc noir blanc gris")
 	RedirectText("Stone does not care", "La pierre s'en fout")
 	RedirectText("It controls the doors", "Il controle les portes")
