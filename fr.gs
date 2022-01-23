@@ -496,8 +496,8 @@ def lang(FromPublic)
 	RedirectText("framerate more consistent.", "votre frequence d'images plus coherente")
 
 	RedirectText(Chr(34)+"Bump mapping"+Chr(34)+" is used to simulate", Chr(34)+"Le Mappage de relief"+Chr(34)+" est utilise pour simuler des bosses")
-	RedirectText("bumps and dents by distorting","et des creux en deformant les textures")
-	RedirectText("the lightmaps.", "de lumiere.")
+	RedirectText("bumps and dents by distorting the","et des creux en deformant les textures")
+	RedirectText("lightmaps.", "de lumiere.")
 	
 	RedirectText(Chr(34)+"Vertical sync"+Chr(34)+" waits for the display", Chr(34)+"Synchronisation verticale"+Chr(34)+" attend que l'ecran termine")
 	RedirectText("to finish its current refresh cycle", "son cycle de rafraichissement en cours avant")
